@@ -1,0 +1,3 @@
+# Types
+
+## primitive types
