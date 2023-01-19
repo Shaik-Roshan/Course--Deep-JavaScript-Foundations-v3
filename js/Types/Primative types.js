@@ -10,6 +10,7 @@
 // In JavaScript, variables dont have types. values do.
 //primative types stores actual values
 
+// -------------typeof operator--------------
 var a;
 console.log(a); //undefine
 console.log(typeof a); //undefined
@@ -33,18 +34,19 @@ console.log(typeof e); //Object
 var f = Symbol();
 console.log(typeof f); //Symbol
 
-
 // typeof doesntExit; //"undefined"
 
-var g=null;
-console.log(g);//"object"
+var g = null;
+console.log(g); //null
+console.log(typeof(g));//object
 
 var h = [1, 2, 3, 4];
 console.log(typeof h); //object
 
-var i=function(){};
-console.log(typeof(i));//"function"
- 
+var i = function () {};
+console.log(typeof i); //"function"
 
+// -------BigInt------;
 
-
+var v = 42n;
+console.log(typeof v); //bigint
