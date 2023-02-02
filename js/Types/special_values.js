@@ -14,6 +14,6 @@ console.log(isNaN("my son's age"));//true
 
 console.log(Number.isNaN(mycatsAge));//true
 console.log(Number.isNaN("my son's age"));//false   because coresion it will not convert to number 
-isNaN coerce implicitly(automatically)
+// isNaN coerce implicitly(automatically)
 
 isNaN(10)

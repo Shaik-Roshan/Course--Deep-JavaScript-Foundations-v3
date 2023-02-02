@@ -46,7 +46,7 @@ console.log(typeof h); //object
 var i = function () {};
 console.log(typeof i); //"function"
 
-// -------BigInt------;
+// -------BigInt------
 
 var v = 42n;
 console.log(typeof v); //bigint
